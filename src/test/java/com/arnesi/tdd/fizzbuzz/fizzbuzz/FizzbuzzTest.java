@@ -24,7 +24,7 @@ class FizzbuzzTest {
 	* Write an algorithm that take a positive number N,
 	* If the number if multiples of 3, return the String “Fizz”,
 	* If the number if multiples of 5, return "Buzz",
-	* and if multiples of 15, return “FizzBuzz”,
+	* and if number if multiples of both 3 and 5, return “FizzBuzz”,
 	* otherwise return N
 	*
 	* We can Fake it or we can Make it.. your call...
