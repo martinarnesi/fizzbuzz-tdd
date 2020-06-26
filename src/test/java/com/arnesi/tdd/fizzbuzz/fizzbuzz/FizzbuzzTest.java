@@ -11,23 +11,14 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 @SpringBootTest
 @DisplayName("FizzBuzz TDD Demo")
 class FizzbuzzTest {
-
-	@Test
-	@DisplayName("Disable me when the demo starts")
-	@Disabled("Disabled")
-	void textNull() {
-		assertNull(Fizzbuzz.fizzBuzz(3));
-	}
-
 	/*
 	* Implementing FIZZ-BUZZ:
 	* Write an algorithm that take a positive number N,
 	* If the number if multiples of 3, return the String “Fizz”,
 	* If the number if multiples of 5, return "Buzz",
-	* and if number if multiples of both 3 and 5, return “FizzBuzz”,
+	* and if the number if multiples of both 3 and 5, return “FizzBuzz”,
 	* otherwise return N
 	*
-	* We can Fake it or we can Make it.. your call...
 	* */
 
 	@Test
