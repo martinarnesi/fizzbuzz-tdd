@@ -21,7 +21,7 @@ class FizzbuzzTest {
 
 	/*
 	* Implementing FIZZ-BUZZ:
-	* Write an algorithm that take a number N,
+	* Write an algorithm that take a positive number N,
 	* If the number if multiples of 3, return the String “Fizz”,
 	* If the number if multiples of 5, return "Buzz",
 	* and if multiples of 15, return “FizzBuzz”,
